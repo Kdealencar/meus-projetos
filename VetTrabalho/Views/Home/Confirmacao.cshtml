@@ -1,0 +1,27 @@
+@model List<Cliente>
+
+    <h2>Agendamento Concluído:</h2>
+
+    <table class= "table table-bordered table-stripeed">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Data</th>
+                <th>Animal</th>
+                <th>Necessidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Cliente i in Model)
+            {
+                <tr>
+                    <td>@i.Nome</td>
+                    <td>@i.Telefone</td>
+                    <td>@i.Data</td>
+                    <td>@i.Animal</td>
+                    <td>@i.Necessidade</td>
+                </tr>
+            }
+        </tbody>
+    </table>

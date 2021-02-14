@@ -1,0 +1,13 @@
+D:\Senac\Meus projetos VS\TrabalhoPedido\bin\Debug\netcoreapp3.1\Pedido.exe
+D:\Senac\Meus projetos VS\TrabalhoPedido\bin\Debug\netcoreapp3.1\Pedido.deps.json
+D:\Senac\Meus projetos VS\TrabalhoPedido\bin\Debug\netcoreapp3.1\Pedido.runtimeconfig.json
+D:\Senac\Meus projetos VS\TrabalhoPedido\bin\Debug\netcoreapp3.1\Pedido.runtimeconfig.dev.json
+D:\Senac\Meus projetos VS\TrabalhoPedido\bin\Debug\netcoreapp3.1\Pedido.dll
+D:\Senac\Meus projetos VS\TrabalhoPedido\bin\Debug\netcoreapp3.1\Pedido.pdb
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.csprojAssemblyReference.cache
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.AssemblyInfoInputs.cache
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.AssemblyInfo.cs
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.csproj.CoreCompileInputs.cache
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.dll
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.pdb
+D:\Senac\Meus projetos VS\TrabalhoPedido\obj\Debug\netcoreapp3.1\Pedido.genruntimeconfig.cache

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <linl rel="stylesheet" href="~/css/site.css" />
+    <title>@ViewData["Title"] - VetTrabalho</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+         <img src="/imagens/cigla.jpg" alt="Image" height="62" width="62" style="float:left";/>
+    <h1>Veterinária Bom Cachorro</h1>
+    <nav>
+        <a href="/Home/Index">Início |</a>
+        <a href="/Home/Serviços">Serviços |</a>
+        <a href="/Home/Agendamento">Agendamento |</a>
+    </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - Veterinária Bom Cachorro. Contato: (047) 9703-XXXXX <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

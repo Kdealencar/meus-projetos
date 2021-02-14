@@ -1,0 +1,23 @@
+@model List<ItemPedido>
+
+<h2>Pedido Confirmado</h2>
+
+<table class= "table table-bordered table-stripped" >
+    <tr>
+        <th>Descrição</th>
+        <th>Quantidade</th>
+        <th>Valor Unitário</th>
+    </tr>
+    @foreach (ItemPedido i in Model){
+         <tr>
+             <td>@i.Descricao</td>
+             <td>@i.Quantidade</td>
+             <td>@i.Valor_Unitario</td>
+         </tr>
+}
+</table>
+<table class= "table table-bordered table-stripped" >
+    <tr>
+        <td><p>Valor total do pedido: @Dados.PedidoAtual.Total()</p></td>
+    </tr>
+</table>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Consultoria</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <div style="text-align:center">
+        <img src="/imagens/foto1.jpeg" alt="Image" title="CAPAZ Soluções Empresariais" height="300" width="1700" style="img:center";/>
+    <nav>
+        <p><h3>
+        <a href="/Home/Index">| Home |</a>
+        <a href="/Home/Serviços">Serviços |</a>
+        <a href="/Home/QuemSomos">Quem Somos |</a>
+        <a href="/Home/FaleConosco">Fale Conosco |</a>
+        </h3></P>
+        </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - Capaz Consultoria - Contato: (047) 9703-XXXXX
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
